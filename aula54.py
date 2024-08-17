@@ -7,7 +7,7 @@ erros de índices inexistentes na lista.
 """
 import os
 
-lista = []
+lista  = [] 
 
 while True:
     print('Selecione uma opção')
@@ -37,7 +37,7 @@ while True:
         if len(lista) == 0:
             print('Nada para listar')
 
-        for i, produto in enumerate(lista):
+        for i, produto in enumerate(lista, start=1):
             print(i, produto)
     else:
         print('Por favor, escolha i, a ou l.')
