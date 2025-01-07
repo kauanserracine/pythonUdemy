@@ -1,0 +1,1 @@
+#imutaveis = str, int, bool e float  
